@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:ros="http://ros/1.0" xmi:id="_j8ZzsMFXEeODkNSQxfIWkg" type="RosPackage" name="door_detection.ros_package_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_uF3-EMFXEeODkNSQxfIWkg" type="2001" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uF4lIMFXEeODkNSQxfIWkg" type="5008"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_uF5MMMFXEeODkNSQxfIWkg" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_vuQRIMFXEeODkNSQxfIWkg" type="3001">
+        <element xmi:type="ros:Parameter" href="door_detection.ros_package#//@node.0/@parameter.0"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vuQRIcFXEeODkNSQxfIWkg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_uF5MMcFXEeODkNSQxfIWkg" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_uF5MMsFXEeODkNSQxfIWkg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_uF5MM8FXEeODkNSQxfIWkg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_1ZUWgMFXEeODkNSQxfIWkg" type="3007">
+      <children xmi:type="notation:DecorationNode" xmi:id="_1ZU9kMFXEeODkNSQxfIWkg" type="5007"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_1ZUWgcFXEeODkNSQxfIWkg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_1ZUWgsFXEeODkNSQxfIWkg" fontName="Ubuntu"/>
+      <element xmi:type="ros:Subscriber" href="door_detection.ros_package#//@node.0/@subscriber.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1ZUWg8FXEeODkNSQxfIWkg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_4Z5yoMFXEeODkNSQxfIWkg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_4Z5ypMFXEeODkNSQxfIWkg" type="5004"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_4Z5yocFXEeODkNSQxfIWkg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_4Z5yosFXEeODkNSQxfIWkg" fontName="Ubuntu"/>
+      <element xmi:type="ros:Publisher" href="door_detection.ros_package#//@node.0/@publisher.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4Z5yo8FXEeODkNSQxfIWkg"/>
+    </children>
+    <element xmi:type="ros:Node" href="door_detection.ros_package#//@node.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uF3-EcFXEeODkNSQxfIWkg" x="216" y="108"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_j8ZzscFXEeODkNSQxfIWkg"/>
+  <element xmi:type="ros:Package" href="door_detection.ros_package#/"/>
+</notation:Diagram>

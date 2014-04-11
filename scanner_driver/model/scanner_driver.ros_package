@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ros:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ros="http://ros/1.0" name="scanner_driver" author="Florian Weisshardt" author_email="fmw@ipa.fhg.de" description="example for a laser scanner driver" license="BSD" url="http://www.reapp-projekt.de/" rosdep="">
+  <node name="scanner_driver" loopRate="10.0">
+    <publisher name="scan_out" msg="sensor_msgs::LaserScan"/>
+    <parameter name="port" value="9000"/>
+    <parameter name="baudrate" value="1000"/>
+    <parameter name="frame_id" value="laser_link" type="string"/>
+  </node>
+  <depend>sensor_msgs</depend>
+</ros:Package>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:ros="http://ros/1.0" xmi:id="_Mcf7EMFUEeOwm7VrNz9nhg" type="RosPackage" name="scanner_driver.ros_package_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_SaPE0MFUEeOwm7VrNz9nhg" type="2001" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SaQ6AMFUEeOwm7VrNz9nhg" type="5008"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SaSvMMFUEeOwm7VrNz9nhg" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_g-TLMMFUEeOwm7VrNz9nhg" type="3001">
+        <element xmi:type="ros:Parameter" href="scanner_driver.ros_package#//@node.0/@parameter.0"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_g-TLMcFUEeOwm7VrNz9nhg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_jIE7IMFUEeOwm7VrNz9nhg" type="3001">
+        <element xmi:type="ros:Parameter" href="scanner_driver.ros_package#//@node.0/@parameter.1"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_jIE7IcFUEeOwm7VrNz9nhg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_rfl_sMFUEeOwm7VrNz9nhg" type="3001">
+        <element xmi:type="ros:Parameter" href="scanner_driver.ros_package#//@node.0/@parameter.2"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rfl_scFUEeOwm7VrNz9nhg"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_SaSvMcFUEeOwm7VrNz9nhg" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_SaSvMsFUEeOwm7VrNz9nhg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_SaSvM8FUEeOwm7VrNz9nhg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_T9GlwMFUEeOwm7VrNz9nhg" type="3004">
+      <children xmi:type="notation:DecorationNode" xmi:id="_T9Hz4MFUEeOwm7VrNz9nhg" type="5004"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_T9HM0MFUEeOwm7VrNz9nhg"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_T9HM0cFUEeOwm7VrNz9nhg" fontName="Ubuntu"/>
+      <element xmi:type="ros:Publisher" href="scanner_driver.ros_package#//@node.0/@publisher.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T9HM0sFUEeOwm7VrNz9nhg"/>
+    </children>
+    <element xmi:type="ros:Node" href="scanner_driver.ros_package#//@node.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SaPE0cFUEeOwm7VrNz9nhg" x="146" y="125"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Mcf7EcFUEeOwm7VrNz9nhg"/>
+  <element xmi:type="ros:Package" href="scanner_driver.ros_package#/"/>
+</notation:Diagram>

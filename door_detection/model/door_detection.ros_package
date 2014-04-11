@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ros:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ros="http://ros/1.0" name="door_detection" author="Florian Weisshardt" author_email="fmw@ipa.fhg.de" description="Example for door detection using a laser scanner" license="BSD" url="http://www.reapp-projekt.de/">
+  <node name="door_detection">
+    <publisher name="door_presence" msg="std_msgs::Bool"/>
+    <subscriber name="scan_in" msg="sensor_msgs::LaserScan"/>
+    <parameter name="max_depth_range" value="3.0" type="double"/>
+  </node>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+</ros:Package>
